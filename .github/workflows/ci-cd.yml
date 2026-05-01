@@ -34,7 +34,6 @@ jobs:
         run: npx playwright install chrome --with-deps
 
       - name: Run Playwright tests
-        working-directory: POC
         run: npx playwright test
 
       - name: Upload HTML report
